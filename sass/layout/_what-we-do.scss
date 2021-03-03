@@ -1,0 +1,30 @@
+.what-we-do {
+  padding-bottom: 94px;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.images-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumb {
+  position: relative;
+}
+.what-we-do-text {
+  position: absolute;
+  bottom: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 100%;
+
+  @include font();
+
+  text-align: center;
+  text-transform: uppercase;
+  color: $primary-white-color;
+  background: rgba(47, 48, 58, 0.8);
+}

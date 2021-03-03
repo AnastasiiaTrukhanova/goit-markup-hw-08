@@ -1,0 +1,16 @@
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  transition: background-color $time-hover $timing-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    fill: $primary-white-color;
+  }
+}
