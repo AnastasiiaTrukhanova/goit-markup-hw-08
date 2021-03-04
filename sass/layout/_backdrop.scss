@@ -26,7 +26,7 @@
   transition: transform $time-hover $timing-function;
   max-width: 450px;
   max-height: 609px;
-  width: 90%;
+  width: 95%;
   height: 95%;
   padding: 40px;
 
@@ -79,9 +79,8 @@
 .user-info-line {
   display: flex;
   flex-direction: column;
-
-  margin-bottom: 10px;
   position: relative;
+  margin-bottom: 10px;
 }
 
 .user-info-label {
@@ -150,24 +149,29 @@
     cursor: pointer;
   }
 }
+.agreement-area {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 
 .agreement-text {
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  @include font($fs: 12px, $fw: 400, $lh: 1.167);
+
+  @include font($fs: 8px, $fw: 400, $lh: 1.167);
   color: $text-color;
-  text-align: center;
+  @media screen and (max-width: 480px) {
+    @include font($fs: 10px, $fw: 400, $lh: 1.167);
+  }
   @media screen and (min-width: 480px) {
     @include font($fs: 12px, $fw: 400, $lh: 1.167);
   }
 
   @media screen and (min-width: 1200px) {
-    @include font($fw: 400, $lh: 1.71);
+    @include font($fs: 14px, $fw: 400, $lh: 1.71);
   }
   &::before {
     display: inline-block;

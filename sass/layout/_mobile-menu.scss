@@ -63,7 +63,7 @@
 }
 
 .mobile-menu-nav-link {
-  @include font($fs: 40px, $fw: 500, $lh: 1.175);
+  @include font($fs: 30px, $fw: 500, $lh: 1.175);
   letter-spacing: 0.02em;
   color: $black-color;
 
@@ -74,6 +74,10 @@
   &:hover,
   &:focus {
     color: $accent-color;
+  }
+
+  @media screen and (min-width: 440px) {
+    @include font($fs: 40px, $fw: 500, $lh: 1.175);
   }
 }
 .mobile-menu-nav-item:not(:last-child) {
@@ -90,17 +94,24 @@
   display: flex;
 }
 .mobile-menu-contacts-phone {
-  @include font($fs: 34px, $fw: 500, $lh: 1.176);
+  @include font($fs: 24px, $fw: 500, $lh: 1.176);
   letter-spacing: 0.02em;
   color: $accent-color;
+
+  @media screen and (min-width: 440px) {
+    @include font($fs: 34px, $fw: 500, $lh: 1.176);
+  }
 }
 
 .mobile-menu-contacts-mail {
   color: $text-color;
-  @include font($fs: 24px, $fw: 500, $lh: 1.166);
+  @include font($fs: 14px, $fw: 500, $lh: 1.166);
   letter-spacing: 0.02em;
 
   transition: color $time-hover $timing-function;
+  @media screen and (min-width: 440px) {
+    @include font($fs: 24px, $fw: 500, $lh: 1.176);
+  }
 }
 
 .header-socials {
@@ -117,8 +128,11 @@
 }
 
 .header-socials-link {
-  @include font($fs: 18px, $fw: 500, $lh: 1.22);
+  @include font($fs: 12px, $fw: 500, $lh: 1.22);
   letter-spacing: 0.02em;
   transition: all $time-hover $timing-function;
   color: $accent-color;
+  @media screen and (min-width: 440px) {
+    @include font($fs: 18px, $fw: 500, $lh: 1.22);
+  }
 }

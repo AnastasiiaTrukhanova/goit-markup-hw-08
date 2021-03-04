@@ -6,7 +6,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/mobile/header-1.jpg");
+    url("../../images/mobile/header-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -18,7 +18,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/mobile/header@2x.jpg");
+      url("../../images/mobile/header@2.jpg");
   }
 
   @media screen and (min-width: 480px) {
@@ -26,7 +26,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/mobile/header-1.jpg");
+      url("../../images/mobile/header-1.jpg");
     background-size: 480px 400px;
   }
 
@@ -37,7 +37,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/mobile/header@2x.jpg");
+      url("../../images/mobile/header@2.jpg");
   }
 
   @media screen and (min-width: 768px) {
@@ -45,7 +45,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/tablet/header.jpg");
+      url("../../images/tablet/Header.jpg");
     background-size: 768px 400px;
   }
 
@@ -56,7 +56,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/tablet/header@2x.jpg");
+      url("../../images/tablet/Header@2.jpg");
   }
 
   @media screen and (min-width: 1200px) {
@@ -64,7 +64,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/desktop/banner.jpg");
+      url("../../images/desktop/banner.jpg");
     background-size: 1600px 600px;
   }
 
@@ -75,7 +75,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/desktop/banner@2x.jpg");
+      url("../../images/desktop/banner@2.jpg");
   }
 }
 
